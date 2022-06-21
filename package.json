@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "ls-3.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "fix-esm": "^1.0.1",
+    "inquirer": "^6.0.0",
+    "node-fetch": "^2.6.1",
+    "yargs": "^17.5.1"
+  }
 }
